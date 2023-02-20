@@ -1,0 +1,480 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.big{
+    /* background-image: linear-gradient( rgb(250, 220, 151) white); */
+    background-color: rgb(252, 223, 223);
+    width: 100%;
+    height: 3500px;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px 15px gray;
+}
+.logo{
+    position: absolute;
+    top: 2px;
+    left: 70px;
+}
+nav{
+    position: absolute;
+    display: flex;
+}
+ul{
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+li{
+   color: rgb(56, 55, 55);
+    display: inline;
+}
+li:hover{
+    color: black;
+}
+input{
+    margin-left: 180px;
+    margin-top: 30px;
+    height: 20px;
+    border-radius: 25px;
+    border: 2px solid rgb(252, 71, 71);
+}
+.txt1{
+    position: absolute;
+    width: 500px;
+    top: 250px;
+    left: 70px;
+}
+.lor{
+    position: absolute;
+    top: 180px;
+}
+.but{
+    position: absolute;
+    top: 280px;
+}
+.clip{
+    background-color: rgb(252, 71, 71);
+    position: absolute;
+    top: 150px;
+    left: 780px;
+    width: 340px;
+    height: 550px;
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+}
+.wh{
+    position: absolute;
+    right: -165px;
+    top: -30px;
+}
+.bar{
+    background-color: rgb(252, 71, 71);
+    position: absolute;
+    width: 88%;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: -1900px;
+    bottom: 0px;
+    border-bottom-right-radius: 300px;
+    border-top-left-radius: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 290px;
+    border-radius: 100%;
+}
+.two{
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    border-radius: 100%;
+}
+.three{
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    border-radius: 100%;
+}
+.four{
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 396px;
+    border-radius: 100%;
+}
+.five{
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 300px;
+    border-radius: 100%;
+}
+.pix{
+    background-color: rgb(252, 71, 71);
+    position: absolute;
+    top: 880px;
+    left: 70px;
+    width: 340px;
+    height: 550px;
+    border-bottom-left-radius: 200px;
+}
+.red{
+    position: absolute;
+    left: -30px;
+    top: -50px;
+}
+.txt2{
+    position: absolute;
+    top: 880px;
+    left: 450px;
+    width: 640px;
+    height: 550px;
+}
+.img{
+    position: absolute;
+    top: 1450px;
+    left: 70px;
+}
+.flex{
+    position: absolute;
+    top: 1550px;
+    left: 70px;
+    width: 88%;
+    height: 300px;
+    bottom: 0px;
+    display: flex;
+}
+.dress{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.dress:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.bag{
+    background-color: rgb(71, 252, 198);
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    height: 300px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.bag:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.shoe{
+    background-color: rgb(71, 252, 198);
+    position: absolute;
+    left: 500px;
+    width: 200px;
+    height: 300px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.shoe:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.dress2{
+    position: absolute;
+    top: 80px;
+    bottom: 0px;
+    left: 40px;
+    right: 0px;
+}
+.bag2{
+    position: absolute;
+    top: 80px;
+    bottom: 0px;
+    left: 40px;
+    right: 0px;
+}
+.bag1:hover{
+    width: 300px;
+}
+.p2:hover{
+    font-size: 60px;
+    color: blue;
+}
+.txt3{
+    position: absolute;
+    width: 500px;
+    top: 1890px;
+    left: 70px;
+}  
+.kid{
+    position: absolute;
+    top: 1880px;
+    left: 600px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+.kid1{
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    left: 260px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.kid2{
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.kid3{
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    left: 10px;
+    top: 310px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.kid4{
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    left: 170px;
+    top: 290px;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.kid5{
+    background-color: rgb(238, 255, 0);
+    position: absolute;
+    left: 300px;
+    top: 160px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.kod{
+    position: absolute;
+    left: -10px;
+}
+.kod1{
+    position: absolute;
+    left: -50px;
+}
+.kod3{
+    position: absolute;
+    right: -13px;
+    top: 1px;
+}
+.other{
+    position: absolute;
+    top: 2300px;
+    left: 60px;
+}
+.fex{
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+    width: 90%;
+    height: 400px;
+    display: flex;
+}
+.fex1{
+    position: absolute;
+    background-color: blue;
+    width: 250px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 25px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.fex1:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.fex2{
+    position: absolute;
+    background-color: blue;
+    width: 250px;
+    height: 400px;
+    left: 260px;
+    overflow: hidden;
+    border-radius: 25px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.fex2:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.fex3{
+    position: absolute;
+    background-color: blue;
+    width: 250px;
+    height: 400px;
+    left: 520px;
+    overflow: hidden;
+    border-radius: 25px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.fex3:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.fex4{
+    position: absolute;
+    background-color: blue;
+    width: 250px;
+    height: 400px;
+    left: 780px;
+    overflow: hidden;
+    border-radius: 25px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.fex4:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.bu{
+    position: absolute;
+    left: -50px;
+}
+.lower{
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    top: 2850px;
+    left: 120px;
+}
+.one1{
+    position: absolute;
+    background-color: rgb(252, 223, 223);
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 10px gray;;
+}
+.two2{
+    position: absolute;
+    background-color: rgb(252, 223, 223);
+    width: 300px;
+    height: 300px;
+    left: 350px;
+    box-shadow: 0px 0px 10px 10px gray;
+}
+.three3{
+    position: absolute;
+    background-color: rgb(252, 223, 223);
+    width: 300px;
+    height: 300px;
+    left: 700px;
+    box-shadow: 0px 0px 10px 10px gray;
+}
+.one12{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.two22{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.three33{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.word{
+    position: absolute;
+    top: 15px;
+    left: 85px;
+}
+.ok{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 200px;
+}
+.word1{
+    position: absolute;
+    top: 15px;
+    left: 85px;
+}
+.ok1{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 200px;
+}
+.word2{
+    position: absolute;
+    top: 15px;
+    left: 85px;
+}
+.ok2{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 200px;
+}
